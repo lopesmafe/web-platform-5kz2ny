@@ -1,7 +1,7 @@
 function contar() {
   let saida = document.getElementById('saida')
 
-  saida.innerHTML += `<h2>Contando de 100 a 120, marcando os pares</h2>`
+  saida.innerHTML += `<h2>Contando de 100 a 120, marcando os pares:</h2>`
 
   let cont = 100
   while (cont <= 120) {

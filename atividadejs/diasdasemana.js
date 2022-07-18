@@ -11,3 +11,4 @@ function info() {
   saida.innerHTML += `<p>Mês: <mark>${meses[mes]}</mark></p>`
   saida.innerHTML += `<p>Ano: <mark>${ano}</mark></p>`
   saida.innerHTML += `<p>Dia da semana: <mark>${semana[sem]}</mark></p>`
+}

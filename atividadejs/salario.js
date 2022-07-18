@@ -1,5 +1,5 @@
 function calcMedia() {
-  var salarios =  parseInt(prompt("Informe a quantidade de salarios: "));
+  var salarios =  parseInt(prompt("Informe a quantidade de salários: "));
   var vetor = new Array(salarios);
 
   for(let count=0; count<salarios; count++)
@@ -10,4 +10,4 @@ function calcMedia() {
   soma += vetor[count];
 
   var media = soma/salarios;
-  document.write("Média do salario: " + media);
+  document.write("Média do salario: " + media)}
